@@ -12,6 +12,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# /// script
+# requires-python = ">=3.12,<3.13"
+# dependencies = [
+#   "matplotlib==3.9.2",
+#   "xrayutilities==1.7.8",
+#   "PyQt5>=5.15.10,<6",
+#   "qtawesome==1.3.1",
+#   "scipy>1.10,<1.12.0",
+# ]
+# ///
+
 import sys, os
 from PyQt5.QtCore import (Qt, pyqtSignal, QRect, QEvent)
 from PyQt5.QtGui import QFont
